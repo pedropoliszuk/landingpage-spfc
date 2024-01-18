@@ -1,0 +1,15 @@
+.navbar {
+    background-color: #b11623;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.navbar-brand, .navbar-brand:hover, .nav-link {
+    color: #fff;
+}
+
+#estadio, #fale-conosco {
+    background-color: #eedddd;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>São Paulo FC</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <h1 class="navbar-brand">São Paulo FC</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-clube" class="nav-link">Sobre o clube</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#estadio" class="nav-link">Estádio</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#idolos" class="nav-link">Ídolos</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#" class="nav-link">Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div>
+        <section id="sobre-o-clube">
+            <div class="carousel-slide" data-bs-ride="carousel" id="carousel" data-bs-interval="3000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="src/spfc1.jpg" class="d-block w-100" alt="Foto da torcida">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="src/spfc2.jpg" class="d-block w-100" alt="Foto do estádio">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="src/spfc3.jpg" class="
+                            d-block w-100" alt="Escudo SPFC">
+                        </div>
+
+
+                        <div class="col-md-7 mt-3 mt-md-0">
+
+                            <h2>Sobre o clube</h2>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, illo. Sit ipsa ad blanditiis nihil suscipit eum, ratione a! Libero totam laudantium possimus explicabo deserunt molestiae error alias cum accusantium.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo tempore, vel aliquam dolore nam velit cumque nihil? Repellendus delectus maiores suscipit ab earum quaerat ratione quis ea iste quas. Distinctio.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="estadio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <h2>Estádio MorumBIS</h2>
+                        <p>O Estádio Cícero Pompeu de Toledo, mais conhecido como Estádio do Morumbi ou MorumBIS, por questões de patrocínio, é o estádio sede do São Paulo Futebol Clube, já tendo recebido a Seleção Brasileira em várias ocasiões.</p>
+                        <ul>
+                            <li><span class="fw-bold">Capacidade</span>: 66.795</li>
+                            <li><span class="fw-bold">Inauguração</span>: 2 de outubro de 1960</li>
+                            <li><span class="fw-bold">Endereço</span>: Praça Roberto Gomes Pedrosa, 1 - Morumbi</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-7">
+                        <img src="src/morumbi.jpg" class="d-block w-100" alt="Estádio MorumBIS">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="idolos" class="pt-5 pb-5">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img class="w-50 img-fluid rounded-circle" src="src/ceni.jpg" alt="Rogério Ceni">
+                    <h4>Rogério Ceni</h4>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img class="w-50 img-fluid rounded-circle" src="src/luis-fabiano.jpg" alt="Luis Fabiano">
+                    <h4>Luis Fabiano</h4>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img class="w-50 img-fluid rounded-circle" src="src/lucas-moura.jpg" alt="Lucas Moura">
+                    <h4>Lucas Moura</h4>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2>Fale conosco</h2>
+                </div>
+                <div class="row">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-bold">Seu nome</label>
+                            <input type="text" id="nome" class="form-control" name="nome">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold">Seu e-mail</label>
+                            <input type="email" id="email" class="form-control" name="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label fw-bold">Seu telefone(opcional)</label>
+                            <input type="tel" id="telefone" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label fw-bold">Sua mensagem</label>
+                            <textarea id="mensagem" name="mensagem" class="form-control"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-danger fw-bold p-3">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
